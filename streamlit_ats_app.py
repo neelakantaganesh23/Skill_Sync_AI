@@ -9,13 +9,14 @@ import plotly.graph_objects as go
 import plotly.express as px
 from io import BytesIO
 import base64
+from utils.ats_tool import ATSAnalyzer, save_results_to_json, load_results_from_json
 
 # Import your ATS tool classes (make sure the previous code is in a file called 'ats_tool.py')
-try:
-    from utils.ats_tool import ATSAnalyzer, save_results_to_json, load_results_from_json
-except ImportError:
-    st.error("Please make sure 'ats_tool.py' file is in the same directory!")
-    st.stop()
+# try:
+#     from utils.ats_tool import ATSAnalyzer, save_results_to_json, load_results_from_json
+# except ImportError:
+#     st.error("Please make sure 'ats_tool.py' file is in the same directory!")
+#     st.stop()
 
 # Page configuration
 st.set_page_config(
