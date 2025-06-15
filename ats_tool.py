@@ -610,7 +610,7 @@ def main():
     """Example usage of the ATS tool"""
     
     # Initialize with your Gemini API key
-    GEMINI_API_KEY = ""  # Replace with your actual API key
+    GEMINI_API_KEY = "AIzaSyAT49L3L54vedMPIXozRnuyxfe2QoLajI4"  # Replace with your actual API key
     
     if GEMINI_API_KEY == "your-gemini-api-key-here":
         print("Please set your Gemini API key in the GEMINI_API_KEY variable")
