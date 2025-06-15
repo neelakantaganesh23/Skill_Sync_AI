@@ -12,9 +12,9 @@ import base64
 
 # Import your ATS tool classes (make sure the previous code is in a file called 'ats_tool.py')
 try:
-    from ats import ATSAnalyzer, save_results_to_json, load_results_from_json
+    from utils.ats_tool import ATSAnalyzer, save_results_to_json, load_results_from_json
 except ImportError:
-    st.error("Please make sure 'ats.py' file is in the same directory!")
+    st.error("Please make sure 'ats_tool.py' file is in the same directory!")
     st.stop()
 
 # Page configuration
